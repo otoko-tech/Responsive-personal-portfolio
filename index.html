@@ -19,6 +19,9 @@
     <!-- Argon CSS -->
     <link type="text/css" href="css/argon-design-system.min.css" rel="stylesheet">
 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
     <!-- Personal Styling -->
     <link rel="stylesheet" href="css/style.css">
     
@@ -28,7 +31,7 @@
     <!-- HEADER -->
     <header class="header" id="header">
       <nav class="nav container navbar-expand-lg">
-        <a href="#" class="nav__logo navbar-brand ml-3">Portfolio Tedi</a>
+        <a href="#" class="nav__logo navbar-brand ml-3">otoko-tech</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -88,7 +91,7 @@
     <!-- MAIN -->
     <main class="main">
 
-    <!-- HOME -->
+      <!-- HOME -->
       <section class="home section" id="home">
         <div class="home__container container grid">
 
@@ -136,37 +139,515 @@
         </div>
       </section>
 
-    <!-- ABOUT ME -->
+      <!-- ABOUT ME -->
       <section class="about section" id="about">
-          
+        <h2 class="section__title">About</h2>        
+        <span class="section__subtitle"> My Introduction </span>
+        
+        <div class="about__container container grid">
+          <img src="assets/img/ogiwara_sayu.jpg" alt="my achievment photo" class="about__img">
+
+          <div class="about__data">
+            <p class="about__description" id="home-about">
+              Web developer with extensive knowledge and years of experience, working with web technologies and designing.
+            </p>
+          </div>
+
+          <div class="about__info">
+            <div>
+              <span class="about__info-title"> 02+ </span>
+              <span class="about__info-name"> Years <br> Experience </span>
+            </div>
+
+            <div>
+              <span class="about__info-title"> 10+ </span>
+              <span class="about__info-name"> Completed <br> Projects </span>
+            </div>
+
+            <div>
+              <span class="about__info-title"> 02+ </span>
+              <span class="about__info-name"> Companies <br> Worked </span>
+            </div>
+          </div>
+
+          <div class="about__buttons">
+            <a href="#" download="my_CV" target="_blank" class="button button--flex">
+              Download CV <i class="uil uil-download-alt button__icon"></i>
+            </a>
+          </div>
+        </div>
       </section>
 
-    <!-- SKILLS -->
+      <!-- SKILLS -->
       <section class="skills section" id="skills">
-            
+        <h2 class="section__title"> Skillset </h2>
+        <span class="section__subtitle"> Skillsets </span>
+
+        <div class="skills__container container grid">
+          <div class="row" id="skillset_container">
+            <!-- Skill 1 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/html5-without-wordmark-color.svg" alt="HTML logo">
+                </div>
+                <div class="contentBx">
+                  <h2>HTML</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/css-3-seeklogo.com.svg" alt="CSS logo">
+                </div>
+                <div class="contentBx">
+                  <h2>CSS</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 3 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/javascript-js-seeklogo.com.svg" alt="Javascript logo">
+                </div>
+                <div class="contentBx">
+                  <h2>Javascript</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 4 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/react-seeklogo.com.svg" alt="React logo">
+                </div>
+                <div class="contentBx">
+                  <h2>React</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 5 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/bootstrap-5-seeklogo.com.svg" alt="Bootstrap logo">
+                </div>
+                <div class="contentBx">
+                  <h2>Bootstrap</h2>
+                </div>
+              </div>
+            </div>            
+          </div>
+        </div>
       </section>  
 
-    <!-- QUALIFICATIONS -->
+      <!-- QUALIFICATIONS -->
       <section class="qualification section" id="qualification">
-          
+        <h2 class="section__title"> Qualification </h2>
+        <span class="section__subtitle"> Personal Journey </span>
+
+        <div class="qualification__container container">
+          <div class="row mt-lg-0">
+            <!-- Education -->
+            <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="education">
+              <div class="qualification__button button--flex">
+                <i class="uil uil-graduation-cap qualification__icon"></i> Education
+              </div>
+
+              <div id="education_timeline">
+                <div class="container py-2">
+                  <!-- Timeline Item 1 -->
+                  <div class="row">
+                    <!-- Timeline Design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                          2020
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    
+                    <!-- Timeline Content -->
+                    <div class="col py-2">
+                      <div class="card education-card transparent_card mirror-face shadow2">
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title"> Bachelor's Degree </h3>
+                              <p class="qualification__subtitle"> STMIK Nusa Mandiri </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle"> Majoring in Information Systems </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline Item 2 -->
+                  <div class="row">
+                    <!-- Timeline Design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                          2015
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    
+                    <!-- Timeline Content -->
+                    <div class="col py-2">
+                      <div class="card education-card transparent_card mirror-face shadow2">
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title"> Graduated </h3>
+                              <p class="qualification__subtitle"> SMK Media Informasi </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle"> Majoring in Multimedia </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline Item End -->
+                  <div class="row">
+                    <!-- Timeline Design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__start">
+                            <i class="uil uil-rocket qualification__start-icon"></i>
+                          </span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>                    
+                    <!-- Timeline Content -->
+                    <div class="col py-2"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experience -->
+            <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="education">
+              <div class="qualification__button button--flex">
+                <i class="uil uil-briefcase-alt qualification__icon"></i> Experience
+              </div>
+
+              <div id="experience_timeline">
+                <div class="container py-2">
+                  <!-- Timeline Item 1 -->
+                  <div class="row">
+                    <!-- Timeline Design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                          2015
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    
+                    <!-- Timeline Content -->
+                    <div class="col py-2">
+                      <div class="card education-card transparent_card mirror-face shadow2">
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title"></h3>
+                              <p class="qualification__subtitle"> Not Working </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle"></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline Item End -->
+                  <div class="row">
+                    <!-- Timeline Design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__start">
+                            <i class="uil uil-rocket qualification__start-icon"></i>
+                          </span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>                    
+                    <!-- Timeline Content -->
+                    <div class="col py-2"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
-    <!-- PORTFOLIO -->
+      <!-- PORTFOLIO -->
       <section class="portfolio section" id="portfolio">
-          
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">My Projects</span>
+
+        <div class="blog-slider">
+          <div class="blog-slider__wrp swiper-wrapper">
+
+            <!-- Portfolio Item 1 -->
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="assets/img/megumi-kato.png" alt="Portfolio item">
+              </div>
+
+              <div class="blog-slider__content">
+                <span class="blog-slider__code">1 February 2022</span>
+                <div class="blog-slider__title">Lorem Ipsum</div>
+                <div class="blog-slider__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                <a href="#portfolio" target="_blank" class="button blog-slider__button button--flex">
+                  DEMO
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Portfolio Item 2 -->
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="assets/img/shokugeki-girl.jpg" alt="Portfolio item">
+              </div>
+
+              <div class="blog-slider__content">
+                <span class="blog-slider__code">2 February 2022</span>
+                <div class="blog-slider__title">Lorem Ipsum</div>
+                <div class="blog-slider__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                <a href="#portfolio" target="_blank" class="button blog-slider__button button--flex">
+                  DEMO
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Portfolio Item 3 -->
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="assets/img/konosuba-girl.jpg" alt="Portfolio item">
+              </div>
+
+              <div class="blog-slider__content">
+                <span class="blog-slider__code">3 February 2022</span>
+                <div class="blog-slider__title">Lorem Ipsum</div>
+                <div class="blog-slider__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                <a href="#portfolio" target="_blank" class="button blog-slider__button button--flex">
+                  DEMO
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Portfolio Item 4 -->
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="assets/img/najimi.png" alt="Portfolio item">
+              </div>
+
+              <div class="blog-slider__content">
+                <span class="blog-slider__code">4 February 2022</span>
+                <div class="blog-slider__title">Lorem Ipsum</div>
+                <div class="blog-slider__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                <a href="#portfolio" target="_blank" class="button blog-slider__button button--flex">
+                  DEMO
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="blog-slider__pagination"></div>
+          </div>
+        </div>
       </section>
 
-    <!-- CONTACT US -->
+      <!-- CONTACT US -->
       <section class="contact section" id="contact">
-          
+        <h2 class="section__title"> Contact Me </h2>          
+        <span class="section__subtitle"> Get in touch </span>
+
+        <div class="row mt-lg-6 justify-content-center contact_mail">
+          <div class="col-lg-6 mx-lg-0 mx-2 contact__container container">
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">+6281388229633</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">E-mail</h3>
+                <span class="contact__subtitle">tedijulianto92@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-location-pin-alt contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Address</h3>
+                <span class="contact__subtitle">Jakarta, Petukangan Utara</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- FORM -->
+          <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
+            <h2 class="contact__title"> Interested to work together? - <span> Let's talk </span></h2>
+
+            <form action="#" method="post" class="cf">
+              <div class="row">
+                <div class="col-lg-6">
+                  <input type="text" name="message-name" class="form-control mb-30 form__color cf" placeholder="Your Name">
+                </div>
+                <div class="col-lg-6">
+                  <input type="email" name="message-email" class="form-control mb-30 form__color cf" placeholder="Your Email">
+                </div>
+                <div class="col-12">
+                  <input type="text" name="message-subject" class="form-control mb-30 form__color cf" placeholder="Subject">
+                </div>
+                <div class="col-12">
+                  <textarea name="message" class="form-control mb-30 form__color cf" cols="30" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="button button--flex send-message form_button">
+                    Send Message <i class="uil uil-message button__icon"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
       </section>
 
     </main>
 
     <!-- FOOTER -->
     <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
 
+          <div>
+            <h1 class="footer__title"> OTOKO-TECH </h1>
+            <span class="footer__subtitle"> Web Developer </span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#about" class="footer__link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="footer__link">My Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="footer__link">Contact Me</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a href="" target="_blank" class="footer__social" id="myLinkedIn">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+
+            <a href="" target="_blank" class="footer__social" id="myInstagram">
+              <i class="uil uil-instagram"></i>
+            </a>
+
+            <a href="" target="_blank" class="footer__social" id="myGithub">
+              <i class="uil uil-github-alt"></i>
+            </a>
+
+            <a href="" target="_blank" class="footer__social" id="myFacebook">
+              <i class="uil uil-facebook-f"></i>
+            </a>
+
+            <a href="" target="_blank" class="footer__social" id="myTwitter">
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; All right reserved</p>
+      </div>
     </footer>
+
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
     
     <!-- Option 1: Bootstrap Bundle with Popper
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
@@ -181,6 +662,9 @@
 
     <!-- Typewritter Effect -->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- Self Script -->
     <script src="js/script.js"></script>
